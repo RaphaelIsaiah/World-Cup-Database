@@ -33,12 +33,12 @@ echo -e "\nList of teams who played in the 2014 'Eighth-Final' round:"
 echo "$($PSQL "SELECT name FROM teams INNER JOIN games ON teams.team_id = games.winner_id OR teams.team_id = games.opponent_id WHERE year = 2014 AND round = 'Eighth-Final' ORDER BY name")"
 
 echo -e "\nList of unique winning teams in the whole data set:"
-echo "$($PSQL "SELECT DISTINCT(name) FROM teams INNER JOIN games ON teams.team_id = games.winner_id")"
+echo "$($PSQL "SELECT DISTINCT(name) FROM teams INNER JOIN games ON teams.team_id = games.winner_id ORDER BY name")"
 
 echo -e "\nYear and team name of all the champions:"
 echo "$($PSQL "SELECT year, name FROM teams INNER JOIN games ON teams.team_id = games.winner_id WHERE round = 'Final' ORDER BY year")"
 
 echo -e "\nList of teams that start with 'Co':"
-echo "$($PSQL "SELECT name FROM teams WHERE name LIKE 'Co_% ORDER BY name")"
+echo "$($PSQL "SELECT name FROM teams WHERE name LIKE 'Co_%' ORDER BY name")"
 
 # Next make a dump of the database following the instructions on CodeRoad
