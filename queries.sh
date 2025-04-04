@@ -1,3 +1,10 @@
+#! /bin/bash
+
+# PSQL="psql --username=freecodecamp --dbname=worldcup --no-align --tuples-only -c"
+PSQL="psql -X --username=postgres --dbname=worldcup --no-align --tuples-only -c"
+
+# Do not change code above this line. Use the PSQL variable above to query your database.
+
 echo -e "\nTotal number of goals in all games from winning teams:"
 echo "$($PSQL "SELECT SUM(winner_goals) FROM games")"
 
@@ -34,4 +41,4 @@ echo "$($PSQL "SELECT year, name FROM teams INNER JOIN games ON teams.team_id = 
 echo -e "\nList of teams that start with 'Co':"
 echo "$($PSQL "SELECT name FROM teams WHERE name LIKE 'Co_% ORDER BY name")"
 
-# Next make a dump of the database following the instructions on CodeRoad 
+# Next make a dump of the database following the instructions on CodeRoad

@@ -1,0 +1,70 @@
+TRUNCATING TABLES...
+TRUNCATE TABLE
+INSERT 0 1
+Inserted: 2018, Final, France (1) vs Croatia (2)
+INSERT 0 1
+Inserted: 2018, Third Place, Belgium (3) vs England (4)
+INSERT 0 1
+Inserted: 2018, Semi-Final, Croatia (2) vs England (4)
+INSERT 0 1
+Inserted: 2018, Semi-Final, France (1) vs Belgium (3)
+INSERT 0 1
+Inserted: 2018, Quarter-Final, Croatia (2) vs Russia (10)
+INSERT 0 1
+Inserted: 2018, Quarter-Final, England (4) vs Sweden (12)
+INSERT 0 1
+Inserted: 2018, Quarter-Final, Belgium (3) vs Brazil (14)
+INSERT 0 1
+Inserted: 2018, Quarter-Final, France (1) vs Uruguay (16)
+INSERT 0 1
+Inserted: 2018, Eighth-Final, England (4) vs Colombia (18)
+INSERT 0 1
+Inserted: 2018, Eighth-Final, Sweden (12) vs Switzerland (20)
+INSERT 0 1
+Inserted: 2018, Eighth-Final, Belgium (3) vs Japan (22)
+INSERT 0 1
+Inserted: 2018, Eighth-Final, Brazil (14) vs Mexico (24)
+INSERT 0 1
+Inserted: 2018, Eighth-Final, Croatia (2) vs Denmark (26)
+INSERT 0 1
+Inserted: 2018, Eighth-Final, Russia (10) vs Spain (28)
+INSERT 0 1
+Inserted: 2018, Eighth-Final, Uruguay (16) vs Portugal (30)
+INSERT 0 1
+Inserted: 2018, Eighth-Final, France (1) vs Argentina (32)
+INSERT 0 1
+Inserted: 2014, Final, Germany (33) vs Argentina (32)
+INSERT 0 1
+Inserted: 2014, Third Place, Netherlands (35) vs Brazil (14)
+INSERT 0 1
+Inserted: 2014, Semi-Final, Argentina (32) vs Netherlands (35)
+INSERT 0 1
+Inserted: 2014, Semi-Final, Germany (33) vs Brazil (14)
+INSERT 0 1
+Inserted: 2014, Quarter-Final, Netherlands (35) vs Costa Rica (42)
+INSERT 0 1
+Inserted: 2014, Quarter-Final, Argentina (32) vs Belgium (3)
+INSERT 0 1
+Inserted: 2014, Quarter-Final, Brazil (14) vs Colombia (18)
+INSERT 0 1
+Inserted: 2014, Quarter-Final, Germany (33) vs France (1)
+INSERT 0 1
+Inserted: 2014, Eighth-Final, Brazil (14) vs Chile (50)
+INSERT 0 1
+Inserted: 2014, Eighth-Final, Colombia (18) vs Uruguay (16)
+INSERT 0 1
+Inserted: 2014, Eighth-Final, France (1) vs Nigeria (54)
+INSERT 0 1
+Inserted: 2014, Eighth-Final, Germany (33) vs Algeria (56)
+INSERT 0 1
+Inserted: 2014, Eighth-Final, Netherlands (35) vs Mexico (24)
+INSERT 0 1
+Inserted: 2014, Eighth-Final, Costa Rica (42) vs Greece (60)
+INSERT 0 1
+Inserted: 2014, Eighth-Final, Argentina (32) vs Switzerland (20)
+INSERT 0 1
+Inserted: 2014, Eighth-Final, Belgium (3) vs United States (64)
+
+Summary:
+Teams: 24
+Games: 32

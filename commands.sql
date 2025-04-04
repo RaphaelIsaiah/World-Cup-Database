@@ -1,13 +1,13 @@
 -- First connect to the psql terminal
 
 -- For FCC
-psql --username=freecodecamp --dbname=postgres 
+-- psql --username=freecodecamp --dbname=postgres 
 
 -- For Local machine
-psql -U postgres
+-- psql -U postgres
 
-CREATE DATABASE worldcup;
-\c worldcup
+-- CREATE DATABASE worldcup;
+-- \c worldcup
 
 CREATE TABLE teams();
 CREATE TABLE games();
